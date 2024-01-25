@@ -1,0 +1,19 @@
+1. Tell the user the purpose of the program
+2. Ask the user what type of ski jump it is (normal or large)
+3. Ask the user their speed at the end of the ramp
+4. Create an if else statement for the two hill types
+5. In each if statement,
+     i. Calculate the distance traveled by multiplying the jumper's speed with the time in air: sqrt((2*height)/9.8)
+    ii. Calculate how many points the jumper earned using this formula: 60 + (distance - par)*points_per_meter
+   iii. Tell the user how many points they got
+    iv. If the jumper has at least 61 points,
+           a. congratulate the user
+        Otherwise, if their points are less than 10
+           a. ask the user what happened
+         Otherwise,
+           a. tell the user they didn't go very far
+
+
+
+
+
