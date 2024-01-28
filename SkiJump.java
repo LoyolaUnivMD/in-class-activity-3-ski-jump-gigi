@@ -14,7 +14,7 @@ import java.lang.Math; //import math
 class SkiJump {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in); //
+        Scanner input = new Scanner(System.in); //creates the tool to read user input
 
         //introduction
         System.out.println("This program will calculate the number of points you earned from skiing and tell you whether you made the par.");
